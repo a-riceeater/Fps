@@ -1,7 +1,11 @@
 <!DOCTYPE html>
 <html>
    <head>
-       <script>
+      
+    </head>
+    <body>
+        <div>fps: <span id="fps"></span></div>
+        <script>
            window.requestAnimFrame = (function(){
   return  window.requestAnimationFrame       ||
           window.webkitRequestAnimationFrame ||
@@ -30,8 +34,5 @@ var render = function() {
 };
 render();
        </script>
-    </head>
-    <Body>
-        <div>fps: <span id="fps"></span></div>
-    </Body>
+    </body>
 </html>
